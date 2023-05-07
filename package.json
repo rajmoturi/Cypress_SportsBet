@@ -1,0 +1,18 @@
+{
+  "scripts":{
+    "SportsBet-ui-test-allure": "cypress run --browser chrome --spec cypress/e2e/tests/AddBets.cy.js --env allure=true",
+    "allure:clear": "rm -r allure-results/allure-report cypress/sreenshots || true",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure-history": "mv -f allure-report/history allure-results/history && -r allure-report || true"
+  },
+  "author": "Raj Moturi",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^11.2.0",
+    "node-xlsx": "^0.21.0"
+  },
+  "dependencies": {
+    "jsonpath": "^1.1.1"
+  }
+}

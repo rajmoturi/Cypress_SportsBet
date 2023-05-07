@@ -1,0 +1,4 @@
+us_id,tc_id, testscenario, isRun, isE2E, data1, data2 data3 
+J0001, tc001, racing bets, Y, Y, xyz, abc, nnn
+J0002, tc002, sports bets, Y, Y, xyz, abc, nnn
+

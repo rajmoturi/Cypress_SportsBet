@@ -1,0 +1,20 @@
+{
+    "Id": "SP_MOD_001",
+    "_comment": "Sports bet DOM Locators Repository",
+
+    "Home":{
+        "RacingTab":{
+            "NextToJumpHorses":{
+                "R_Horse1":"body > span:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1)"
+            }
+            
+        },
+        "HorseRacing_AsiaRacing":{
+            "Bet":"div[data-automation-id='racecard-outcome']"
+        }
+    },
+
+    "BetSlip":{
+        "BetSlipButton":".size10_f1p3h33l.medium_f1wf24vo"
+    }
+}
